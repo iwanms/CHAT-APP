@@ -1,0 +1,21 @@
+Menit 03:53:00
+
+1. coba ganti database ke online lagi ✔️
+	- masalahnya jaringan internet
+
+#USER
+arthur@mail.com
+123456
+
+iwan@mail.com
+123456
+
+#LOCAL DB
+run db : mongod --dbpath="c:\data\db"
+
+open shell run : mongosh
+command :
+show dbs
+use nama_database
+
+lihat semua data di table users : db.users.find()
